@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px 200px;
+	gap: 10px;
+	font-family: sans-serif;
+	background: lightgray;
+	
+}
+.inputBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	gap: 5px;
+}
+input{
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+button{
+	background: lightblue;
+	padding: 5px 15px;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 16px;
+}
+button:hover{
+	background: red;
+	font-weight: bold;
+	border: none;
+}
+#multiSelect{
+	padding: 5px ;
+}
